@@ -14,7 +14,7 @@ struct EmojibookApp: App {
 
     var body: some Scene {
         Settings {
-            ContentView()
+            EmojibookListView()
         }
     }
 }
