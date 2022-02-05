@@ -22,6 +22,7 @@
 		1628289827AE04D800C3ACA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1628289A27AE04D800C3ACA8 /* Emojibook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Emojibook.entitlements; sourceTree = "<group>"; };
 		162828A427AE0BD800C3ACA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		162828A827AE124700C3ACA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		1628289027AE04D700C3ACA8 /* Emojibook */ = {
 			isa = PBXGroup;
 			children = (
+				162828A827AE124700C3ACA8 /* Info.plist */,
 				1628289127AE04D700C3ACA8 /* EmojibookApp.swift */,
 				162828A427AE0BD800C3ACA8 /* AppDelegate.swift */,
 				1628289327AE04D700C3ACA8 /* ContentView.swift */,
@@ -280,6 +282,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Emojibook/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +311,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Emojibook/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
