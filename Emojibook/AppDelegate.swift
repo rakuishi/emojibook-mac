@@ -24,7 +24,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             let menu = NSMenu()
 
             let hostingView = NSHostingView(rootView: EmojibookListView())
-            hostingView.setFrameSize(.init(width: EmojibookListViewSize.width, height: EmojibookListViewSize.height))
+            hostingView.setFrameSize(.init(width: EmojibookListViewConst.menuItemWidth, height: EmojibookListViewConst.menuItemHeight))
             let contentViewMenuItem = NSMenuItem.init()
             contentViewMenuItem.view = hostingView
             menu.addItem(contentViewMenuItem)
