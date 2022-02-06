@@ -30,7 +30,7 @@ struct EmojibookListView: View {
                 ForEach(emojis) { emoji in
                     Group {
                         Button(emoji.character) {
-                            print("\(emoji.character)")
+                            copyEmoji(emoji: emoji)
                         }
                         .font(.system(size: 36))
                         .frame(width: EmojibookListViewConst.gridItemSize, height: EmojibookListViewConst.gridItemSize)
@@ -42,6 +42,11 @@ struct EmojibookListView: View {
             .frame(width: EmojibookListViewConst.width)
         }
     }
+}
+
+private func copyEmoji(emoji: Emoji) {
+    NSPasteboard.general.clearContents()
+    NSPasteboard.general.setString(emoji.character, forType: .string)
 }
 
 struct ContentView_Previews: PreviewProvider {
